@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-main15",
+      "appliesTo": "1er_parcial/main15.cpp",
+      "type": "launch"
+    }
+  ]
+}
