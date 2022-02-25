@@ -82,4 +82,3 @@ int main(){
     cout << "POLIGONO:" << endl << "Perimetro: " << pentagono.perimetro() << endl << "Area: " << pentagono.area()<< endl << endl;
     return 0;
 }
-
