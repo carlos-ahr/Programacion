@@ -1,4 +1,6 @@
-# ****EJERCICIOS DEL 25 DE FEBRERO DEL 2022****
+
+# **** EJERCICIOS DEL 25 DE FEBRERO DEL 2022 ****
+
 ## Ejercicio 1:
 
 Codigo:
