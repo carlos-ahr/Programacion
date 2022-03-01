@@ -135,8 +135,9 @@ int main(){
     baz->~Rec();
     return 0;
 }
-
 ```
+
+<div stye="page-break-after: always"></div>
 
 Ejecutable:
 ```sh
