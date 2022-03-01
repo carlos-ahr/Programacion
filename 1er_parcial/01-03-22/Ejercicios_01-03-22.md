@@ -102,3 +102,18 @@ Perimetro: 12
 Volumen: 48
 Objeto destuido
 ```
+
+<div style="page-break-after: always"></div>
+
+## EJERCICIO 4
+
+Codigo:
+
+```cpp
+
+```
+
+Ejecutable:
+```sh
+
+```
