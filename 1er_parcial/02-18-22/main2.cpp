@@ -20,6 +20,6 @@ int main(){
     poligono pol;
     pol.calcularperimetroimetro(10, 6);
     pol.calcularArea(10,2);
-    cout << "El perimetro es: " << pol.perimetro() << endl << "El area es: " << pol.area();
+    cout<<"El perimetro es: "<<pol.perimetro()<<endl<<"El area es: "<<pol.area();
     return 0;
 }

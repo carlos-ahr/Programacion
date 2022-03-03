@@ -62,23 +62,23 @@ double Figura::area(void){
 int main(){
         double l, p, a, h;
     int nl;
-    cout << "Longitud del lado: " << endl;
-    cin >> l;
-    cout << "Numero de lados: " << endl;
-    cin >> nl;
-    cout << "Perimetro: " << endl;
-    cin >> p;
-    cout << "Apotema: " << endl;
-    cin >> a;
-    cout << "Altura: " << endl;
-    cin >> h;
+    cout<<"Longitud del lado: " << endl;
+    cin>>l;
+    cout<<"Numero de lados: " << endl;
+    cin>>nl;
+    cout<<"Perimetro: " << endl;
+    cin>>p;
+    cout<<"Apotema: " << endl;
+    cin>>a;
+    cout<<"Altura: " << endl;
+    cin>>h;
     Figura figura(l, nl, p, a, h);
     Figura triagulo (3, 3, 9, 0, 4);
     Figura cuadrado (2, 4, 8, 0, 2);
     Figura pentagono (3, 5, 15, 4, 8);
-    cout << "Figura:" << endl << "Perimetro: " << figura.perimetro() << endl << "Area: " << figura.area()<< endl << endl;
-    cout << "TRIANGULO:" << endl << "Perimetro: " << triagulo.perimetro() << endl << "Area: " << triagulo.area()<< endl << endl;
-    cout << "CUADRADO:" << endl << "Perimetro: " << cuadrado.perimetro() << endl << "Area: " << cuadrado.area()<< endl << endl;
-    cout << "POLIGONO:" << endl << "Perimetro: " << pentagono.perimetro() << endl << "Area: " << pentagono.area()<< endl << endl;
+    cout<<"Figura:"<<endl<<"Perimetro: "<<figura.perimetro()<<endl<<"Area: "<<figura.area()<<endl<<endl;
+    cout<<"TRIANGULO:"<<endl<<"Perimetro: "<<triagulo.perimetro()<<endl<<"Area: "<<triagulo.area()<<endl<<endl;
+    cout<<"CUADRADO:"<<endl<<"Perimetro: "<<cuadrado.perimetro()<<endl<<"Area: "<<cuadrado.area()<<endl<<endl;
+    cout<<"POLIGONO:"<<endl<<"Perimetro: "<<pentagono.perimetro()<<endl<<"Area: "<<pentagono.area()<<endl<<endl;
     return 0;
 }

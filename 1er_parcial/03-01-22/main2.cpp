@@ -10,6 +10,6 @@ class Circunferencia{
 };
 int main(){
     Circunferencia cir0(10.0);
-    cout << "Area: " << cir0.area() << endl << "Perimetro: " << cir0.perimetro() << endl << "Volumen: " << cir0.volumen() << endl;
+    cout<<"Area: "<<cir0.area()<<endl<<"Perimetro: "<<cir0.perimetro()<<endl<<"Volumen: "<<cir0.volumen()<<endl;
     return 0;
 }

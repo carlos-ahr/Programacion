@@ -13,6 +13,6 @@ void poligono::calcular(int p, int a){
 int main(){
     poligono pol;
     pol.calcular(67, 6);
-    cout << "El area es: " << pol.area();
+    cout<<"El area es: "<<pol.area();
     return 0;
 }

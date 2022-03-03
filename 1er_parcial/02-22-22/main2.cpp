@@ -4,7 +4,7 @@ class Cubo{
     int lado;
     public:
     void valor(int);
-    int volumen(){return lado*lado*lado;}
+    int volumen(){return lado * lado * lado;}
 };
 void Cubo::valor(int l){
     lado=l;

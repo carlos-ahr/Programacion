@@ -15,9 +15,9 @@ int main(){
     foo = &obj;
     bar = new Rec(1, 2, 3);
     baz = new Rec[2]{{4, 5, 6},{7, 8, 9}};
-    cout << "AREAS: " << endl << "Foo: " << foo->area() << "\t" << "Bar: " << bar->area() << "\t" << "Baz: " << baz->area() << endl;
-    cout << "PERIMETRO: " << endl << "Foo: " << foo->perimetro() << "\t" << "Bar: " << bar->perimetro() << "\t" << "Baz: " << baz->perimetro() << endl;
-    cout << "VOLUMEN: " << endl << "Foo: " << foo->volumen() << "\t" << "Bar: " << bar->volumen() << "\t" << "Baz: " << baz->volumen() << endl;
+    cout<<"AREAS: "<<endl<<"Foo: "<<foo->area()<<"\t"<<"Bar: "<<bar->area()<<"\t"<<"Baz: "<<baz->area()<<endl;
+    cout<<"PERIMETRO: "<<endl<<"Foo: "<<foo->perimetro()<<"\t"<<"Bar: "<<bar->perimetro()<<"\t"<<"Baz: "<<baz->perimetro()<<endl;
+    cout<<"VOLUMEN: "<<endl<<"Foo: "<<foo->volumen()<<"\t"<<"Bar: "<<bar->volumen()<<"\t"<<"Baz: "<<baz->volumen()<<endl;
     foo->~Rec();
     bar->~Rec();
     baz->~Rec();

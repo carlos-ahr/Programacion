@@ -19,6 +19,6 @@ int main(){
     triangulo tri0;
     tri0.calcularPerimetro(3);
     tri0.calcularArea(3, 2);
-    cout << "El perimetro del triangulo es: " << tri0.perimetro() << endl << "El area del triangulo es: " << tri0.area() << endl;
+    cout<<"El perimetro del triangulo es: "<<tri0.perimetro()<<endl<<"El area del triangulo es: "<<tri0.area()<<endl;
     return 0;
 }

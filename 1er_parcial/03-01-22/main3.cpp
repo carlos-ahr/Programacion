@@ -12,7 +12,7 @@ class Rec{
 int main(){
     Rec *rec;
     rec = new Rec(2, 4, 6);
-    cout << "Area: " << rec->area() << endl << "Perimetro: " << rec->perimetro() << endl << "Volumen: " << rec->volumen() << endl;
+    cout<<"Area: "<<rec->area()<<endl<<"Perimetro: "<<rec->perimetro()<<endl<<"Volumen: "<<rec->volumen()<<endl;
     delete rec;
     return 0;
 }

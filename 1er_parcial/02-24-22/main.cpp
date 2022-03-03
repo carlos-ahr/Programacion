@@ -9,5 +9,5 @@ class Figura{
 };
 int main(){
     Figura pentagono(10, 5, 50, 6);
-    cout << "Perimetro: " << pentagono.perimetro() << endl << "Area: " << pentagono.area();
+    cout<<"Perimetro: "<<pentagono.perimetro()<<endl<<"Area: "<<pentagono.area();
 }

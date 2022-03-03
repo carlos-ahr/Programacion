@@ -1,6 +1,3 @@
-/*
-25-02-22-04
-*/
 #include <iostream>
 using namespace std;
 class Ficticia{

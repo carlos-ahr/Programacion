@@ -12,7 +12,7 @@ class ejemplo{
 int main(){
     ejemplo foo("examen");
     ejemplo bar("examen");
-    cout << "foo contenido: " << foo.contenido() << endl;
-    cout << "bar contenido: " << bar.contenido() << endl;
+    cout<<"foo contenido: "<<foo.contenido()<<endl;
+    cout<<"bar contenido: "<<bar.contenido()<<endl;
     return 0;
 }

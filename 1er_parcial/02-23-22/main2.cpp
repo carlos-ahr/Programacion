@@ -18,6 +18,6 @@ Rectangulo::Rectangulo(int b, int h){
 int main(){
     Rectangulo rect(4, 5);
     Rectangulo rect2;
-    cout << "Area 1: " << rect.area() << endl << "Area 2: " << rect2.area() << endl;
+    cout<<"Area 1: "<<rect.area()<<endl<<"Area 2: "<<rect2.area()<<endl;
     return 0;
 }

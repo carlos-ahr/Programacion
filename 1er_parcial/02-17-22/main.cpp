@@ -14,6 +14,6 @@ int main()
 {
     poligono pol;
     pol.calcular(5,10);
-    cout << "El area es: " << pol.perimetro();
+    cout<<"El area es: "<<pol.perimetro();
     return 0;
 }

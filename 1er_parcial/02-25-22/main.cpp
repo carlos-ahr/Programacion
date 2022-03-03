@@ -1,6 +1,3 @@
-/*
-25-02-22-01
-*/
 #include <iostream>
 using namespace std;
 class Rectangulo{
@@ -14,7 +11,7 @@ class Rectangulo{
 int main(){
     Rectangulo rec(6,7);
     Rectangulo rec1(5,7);
-    cout << "Area: " << rec.area() << endl;
-    cout << "Area 2 : " << rec1.area() << endl;
+    cout<<"Area: "<<rec.area()<<endl;
+    cout<<"Area 2 : "<<rec1.area()<<endl;
     return 0;
 }
