@@ -8,12 +8,12 @@ Clase de area, volumen y perimetro de un trapecio.
 #include<iostream>
 using namespace std;
 class Trapecio{
-    double baseMayor, baseMenor, altura, lado, largo;
+    float baseMayor, baseMenor, altura, lado, largo;
     public:
-    void calcular(double B, double b, double a, double ld, double lr){baseMayor = B, baseMenor = b, altura = a, lado = ld, largo = lr;}
-    double perimetro(){return baseMayor + baseMayor + (lado * 2);}
-    double area(){return ((baseMayor + baseMenor)/2) * altura;}
-    double volumen(){return (((baseMayor + baseMenor)/2) * altura) * largo;}
+    void calcular(float B, float b, float a, float ld, float lr){baseMayor = B, baseMenor = b, altura = a, lado = ld, largo = lr;}
+    float perimetro(){return baseMayor + baseMayor + (lado * 2);}
+    float area(){return ((baseMayor + baseMenor)/2) * altura;}
+    float volumen(){return (((baseMayor + baseMenor)/2) * altura) * largo;}
 };
 int main(){
     Trapecio trap0, trap1;

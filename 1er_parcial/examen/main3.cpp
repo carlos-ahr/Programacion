@@ -8,13 +8,13 @@ Destructor de area, volumen y perimetro de un trapecio.
 #include<iostream>
 using namespace std;
 class Trapecio{
-    double baseMayor, baseMenor, altura, lado, largo;
+    float baseMayor, baseMenor, altura, lado, largo;
     public:
-    Trapecio(double B, double b, double a, double ld, double lr){baseMayor = B, baseMenor = b, altura = a, lado = ld, largo = lr;}
-    ~Trapecio(){cout<<"Destruyendo objetos..."<<endl;}
-    double perimetro(){return baseMayor + baseMayor + (lado * 2);}
-    double area(){return ((baseMayor + baseMenor)/2) * altura;}
-    double volumen(){return (((baseMayor + baseMenor)/2) * altura) * largo;}
+    Trapecio(float B, float b, float a, float ld, float lr){baseMayor = B, baseMenor = b, altura = a, lado = ld, largo = lr;}
+    ~Trapecio(){cout<<"Destruyendo objeto..."<<endl;}
+    float perimetro(){return baseMayor + baseMayor + (lado * 2);}
+    float area(){return ((baseMayor + baseMenor)/2) * altura;}
+    float volumen(){return (((baseMayor + baseMenor)/2) * altura) * largo;}
 };
 int main(){
     Trapecio trap0(10.0, 8.0, 4.0, 9.5, 10.0);
