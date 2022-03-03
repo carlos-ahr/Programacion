@@ -1,33 +1,58 @@
+
+
+<h2 align="center" style="font-size: xx-large; font-weight: bolder;">Instituto Politécnico Nacional</h2>
+<p>&nbsp;</p>
+<h2 align="center" style="font-size: x-large; font-weight: bold;">Escuela Superior de Ingenieria Eléctrica y Mecánica Unidad   Zacatenco</h2>
+<p>&nbsp;</p> 
+<h3 align="center" style="font-size: x-large; font-weight: bold;">Programación Orientada a Objetos</h3>
+<p>&nbsp;</p>
+<h3 align="center" style="font-size: x-large; font-weight: bold;">Herrera Rangel Carlos Alberto</h3>
+<p>&nbsp;</p>
+<h3 align="center" style="font-size: x-large; font-weight: bold;">2AM2</h3>
+<p>&nbsp;</p>
+<div style="page-break-after: always"></div>
+
+# Tabla de contenidos: #
+- [Tabla de contenidos:](#tabla-de-contenidos)
+- [Practicas 08/2/02/22](#practicas-0820222)
+  - [Ejercicio 1](#ejercicio-1)
+
+
+<div style="page-break-after: always"></div>
+
+# Practicas 08/2/02/22 #
+
+## Ejercicio 1 ##
+
+**Codigo:**
+
 ```cpp
 #include <iostream>
 #include <string>
-#include <cstdlib>
 using namespace std;
-class Ali {
-    public:
-    int *imprimocomando;
-    int miAli;
-    Ali(){
-        cout<<"Destructor ~ Ali llamado:"<<endl;
-    }
-    Ali (int miAlic):miAli(miAlic){
-        cout<<"Constructor Ali ("<<miAlic<<")llamado"<<endl;
-        imprimocomando = new int[1000];
-        for (int i=0; i < miAlic;i++) imprimocomando[i]= miAlic *1000 + i;
-    }
-    ~Ali(){
-        cout<<"Destructor ~ Ali llamado"<<endl;
-        delete [] imprimocomando;
-    }
-};
-int main (int argc, const char *argv[]){
-    Ali t;
-    t = Ali(5);
-    cout<<"Investiga la llamada inesperada de undestructor de la clase Ali:";
-    for (int i=0; i < t.miAli; i++) cout<<" "<<timprimocomando[i];
-    cout<<endl;
+int main(){
+    string nombre, boleta, promedio, profesor, numero, direccion;
+    cout<<"Cual es tu nombre? ";
+    getline(cin, nombre);
+    cout<<"Cual es tu numero de boleta? ";
+    getline(cin, boleta);
+    cout<<"Cual es tu promedio? ";
+    getline(cin, promedio);
+    cout<<"Cual fue tu profesor de fundamentos de programacion? ";
+    getline(cin, profesor);
+    cout<<"Cual es tu numero? ";
+    getline(cin, numero);
+    cout<<"Cual es tu direccion? ";
+    getline(cin, direccion);
+    cout<<"Hola "<<nombre<<" Bienvenido al curso de programacion orientada a objetos!\nBoleta: "<< boleta<<"\nPromedio:"<<promedio<< "\nProfesor:"<<profesor<<"\nNumero: "<<numero<<"\nDireccion: "<< direccion;
     return 0;
 }
 ```
 
-"markdown-pdf.highlightStyle": "atom-one-dark.css"
+<div style="page-breake always;"></div>
+
+**Ejecutable:**
+
+```
+
+```
