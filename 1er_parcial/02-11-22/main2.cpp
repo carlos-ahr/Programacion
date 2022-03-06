@@ -20,4 +20,3 @@ int main(){
     cout<<"El volumen 0 es: "<<rec0.volumen()<<endl<<"El volumen 1 es: "<<rec1.volumen()<<endl<<"El volumen 2 es: "<<rec2.volumen();
     return 0;
 }
-

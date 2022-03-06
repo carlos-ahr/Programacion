@@ -20,5 +20,3 @@ int main(){
     stringstream(miString)>>suya.fecha;
     cout<<mia.titulo<<"\n"<<mia.fecha<<"\n"<<suya.titulo<<"\n"<<suya.fecha<<endl;
 }
-
-
