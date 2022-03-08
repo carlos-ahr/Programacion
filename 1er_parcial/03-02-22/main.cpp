@@ -10,8 +10,8 @@ class ejemplo{
     const string& contenido(){return *ptr;}
 };
 int main(){
-    ejemplo foo("examen");
-    ejemplo bar("examen");
+    ejemplo foo("foo");
+    ejemplo bar("bar");
     cout<<"foo contenido: "<<foo.contenido()<<endl;
     cout<<"bar contenido: "<<bar.contenido()<<endl;
     return 0;
