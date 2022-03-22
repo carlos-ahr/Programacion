@@ -1,28 +1,19 @@
 #include <iostream>
 using namespace std;
 class Circulo{
-
-double radio;
+    double radio;
 public:
-
-Circulo(double r):radio(r){}
-double area(){return radio*radio*3.14159265;}
+    Circulo(double r) : radio(r) {}
+    double area() { return radio * radio * 3.14159265; }
 };
-
-class Cilindro {
-Circulo base;
-double altura;
+class Cilindro{
+    Circulo base;
+    double altura;
 public:
-Cilindro(double r,double h ):base(r),altura(h){}
-double volumen(){return base.area()*altura; }
-
+    Cilindro(double r, double h) : base(r), altura(h) {}
+    double volumen() { return base.area() * altura; }
 };
-
 int main(){
-
-Cilindro foo(34,67);
-
-cout<<"El  volumen es : "<<foo.volumen()<<endl;
-
-
+    Cilindro foo(34, 67);
+    cout << "El volumen es : " << foo.volumen() << endl;
 }
